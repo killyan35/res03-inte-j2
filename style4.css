@@ -1,0 +1,58 @@
+body {
+    height:100%;
+    width:100%;
+}
+body > header{
+    text-align:center;  
+    height:10vh;
+}
+
+body > main > section:first-of-type {
+    width: 55%;
+    position:absolute;
+    top:18%;
+    bottom:82%;
+    right:92%;
+    left:8%;   
+}
+body > main > section:nth-of-type(2) {
+    
+    
+    width: 40%;
+    position:absolute;
+    top:18%;
+    bottom:82%;
+    right:38%;
+    left:72%;
+}
+body > main > section:nth-of-type(3) {
+  
+    
+    width:33%;
+    position:absolute;
+    top:60%;
+    bottom:40%;
+    right:92%;
+    left:8%;
+}
+body > main > section:nth-of-type(4) {
+  
+    
+    width:33%;
+    position:absolute;
+    top:60%;
+    bottom:40%;
+    right:65%;
+    left:45%;
+}
+body > main > section:last-of-type {
+    
+    
+    width: 33%;
+    position:absolute;
+    top:60%;
+    bottom:40%;
+    right:20%; 
+    left:80%;
+      
+}
