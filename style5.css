@@ -1,6 +1,36 @@
 body {
     background-color:white;
 }
+body > header {
+    position:absolute;
+    background-color:white;
+    height:25em;
+    width:100%;
+}
+body > main > section:first-of-type {
+    background-color:#F5F5DC;
+    height:125em;
+    width:100%;
+}
+body > main > section:nth-of-type(2) {
+    background-color:green;
+    height:100%;
+    width:100%;
+}
+body > main > section:nth-of-type(3) {
+    background-color:#F5F5DC;
+    height:100%;
+    width:100%;
+}
+body > main > section:nth-of-type(4) {
+    background-image: url('https://platol.netlify.app/tushi/assets/images/blog/08.webp');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:45em;
+    width:100%;
+    text-align:center;
+    background-position: bottom;
+}
 body > header > h1 {
     width: 15%;
     position:absolute;
@@ -68,11 +98,61 @@ body > header > p{
     color:black;
     font-size:6em;
 }
-body > header > section:first-of-type {
-    width: 25%;
+body > main > section:first-of-type > h2 {
+    top:50em;
+    left:12%;
+    
+}
+body > main > section:first-of-type > article:first-of-type {
+    height:38em;
+    width: 23.7%;
     position:absolute;
-    top:20%;
-    left:20%;
-    color:black;
-    font-size:4.5em;
+    top:35em;
+    left:12%;
+    background-color:blue;
+    
+}
+body > main > section:first-of-type > article:nth-of-type(2) {
+    height:38em;
+    width: 23.7%;
+    position:absolute;
+    top:35em;
+    left:38%;
+    background-color:red;
+    
+}
+body > main > section:first-of-type > article:nth-of-type(3) {
+    height:38em;
+    width: 23.7%;
+    position:absolute;
+    top:35em;
+    left:64%;
+    background-color:green;
+    
+}
+body > main > section:first-of-type > article:nth-of-type(4) {
+    height:38em;
+    width: 23.7%;
+    position:absolute;
+    top:75em;
+    left:12%;
+    background-color:red;
+    
+}
+body > main > section:first-of-type > article:nth-of-type(5) {
+    height:38em;
+    width: 23.7%;
+    position:absolute;
+    top:75em;
+    left:38%;
+    background-color:green;
+    
+}
+body > main > section:first-of-type > article:last-of-type {
+    height:38em;
+    width: 23.7%;
+    position:absolute;
+    top:75em;
+    left:64%;
+    background-color:blue;
 }
