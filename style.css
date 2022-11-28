@@ -1,0 +1,49 @@
+body > header{
+    background-color:blue;
+    
+    height:10vh;
+}
+body > main{
+    background-color:green;
+    
+    height:60vh;
+}
+body > footer{
+    background-color:red;
+    
+    height:16vh;
+}
+body > main > section:first-of-type {
+    background-color:yellow;
+    height:20vh;
+    width: 15px;
+    position:relative;
+    top:20vh;
+    bottom:20vh;
+    right:3vh;
+    
+    
+}
+body > main > section:nth-of-type(2) {
+    background-color:yellow;
+    height:40vh;
+    width: 15px;
+    position:relative;
+    top:20vh;
+    bottom:20vh;
+    right:20vh;
+    left:20vh;
+    
+     
+}
+body > main > section:last-of-type {
+    background-color:yellow;
+    height:4vh;
+    width: 15px;
+    position:relative;
+    top:20vh;
+    bottom:20vh;
+    right:3vh;
+    left:50vh;
+     
+}
